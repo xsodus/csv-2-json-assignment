@@ -19,4 +19,4 @@ You also should see that all test cases are passed.
 ```
 $ npm start
 ```
-5. After executing the script, you should see `customer-data.json` at `resources` directly.
+5. After executing the script, you should see `customer-data.json` at `resources` directory.
