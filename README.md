@@ -2,7 +2,7 @@
 
 I've created this project following the instruction in Module 1 Assignment Lab: CSV to JSON Converter.
 
-My main idea is to use `csvtojson`library to convert csv data to json. I also used `jest` library to implement the unit test script to ensure all function is working correctly before running the main script.
+My main idea is to use `csvtojson` library to convert csv data to json. I also used `jest` library to implement the unit test script to ensure all functions are working correctly before running the main script.
 
 # Setup & Running Guide:
 1. Install NodeJs.
