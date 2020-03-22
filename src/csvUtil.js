@@ -7,10 +7,10 @@ function convertToJsonObject(path, callback) {
     .then(callback);
 }
 
-function convertToJsonFile(csvPath, destPath, callback) {
+function convertToJsonFile(csvPath, destPath, callback = null) {
   convertToJsonObject(csvPath, function(jsonObject) {
     fs.writeFileSync(destPath, JSON.stringify(jsonObject));
-    callback("Success");
+    if (callback !== null) callback("Success");
   });
 }
 
