@@ -1,0 +1,27 @@
+{
+  "name": "csv-2-json-assignment",
+  "version": "1.0.0",
+  "description": "Hello",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsodus/csv-2-json-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xsodus/csv-2-json-assignment/issues"
+  },
+  "homepage": "https://github.com/xsodus/csv-2-json-assignment#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
